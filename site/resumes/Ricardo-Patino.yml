@@ -3,22 +3,22 @@
 #
 
 template: "online-cv"
-skin: "green"
+skin: "blue"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Santiago
-    last_name: Quintero
+    first_name: Ricardo
+    last_name: Patino
     
     # Define yourself in 4-5 words
-    motto: I hate Front-End
+    motto: everything is weird until is not
     
     # focus
-    focus: Finishing this course
+    focus: Game development
     
-    # You have 1 paragraph to make a great impression, summarize your career.
+    # You have 1 paragraph to make a great impression, summarize your career. LATER
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -29,42 +29,45 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://avatars3.githubusercontent.com/u/49835178?s=460&u=944de2ad887921e3b6e261d1d60ef272a4350677&v=4
 
     # Contact Information
-    email: santiagoquinteroq@gmail.com #optional
-    phone: (305)338-7090 #optional
-    website: none yet #optional
-    linkedin: santiago-quintero-91bb77152 #optional
+    email: rickpatinor@gmail.com #optional
+    phone: +506 8879-5100 #optional
+    website:  #optional
+    linkedin:  #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: QuinteroSantiago
+    github: Ricardo-Patino
     
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
         level: Native
-        
+
+      - idiom: French
+        level: Professional
+
       - idiom: Spanish
-        level: Native
-        
-      - idiom: Portuguese
-        level: Basic
+        level: Professional
 
     # Interests or hobies
     interests:
-      - item: Poker
+      - item: Climbing
 
-      - item: Coding
+      - item: Snowboarding
 
-      - item: Football
+      - item: Cooking
 
 # Your previous education
 education:
-    - degree: BS in Computer Science
-      university: University of Florida
+    - degree: MSc in Computer Science
+      university: University of London
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
@@ -173,8 +176,8 @@ projects:
 
 skills:
     toolset:
-      - name: C++
-        level: 50%
+      - name: Python & Django
+        level: 98%
 
       - name: Javascript & jQuery
         level: 98%

@@ -3,71 +3,65 @@
 #
 
 template: "online-cv"
-skin: "green"
+skin: "blue"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Santiago
-    last_name: Quintero
+    first_name: Heiner
+    last_name: Guillén
     
     # Define yourself in 4-5 words
-    motto: I hate Front-End
+    motto: Comprometido
     
     # focus
-    focus: Finishing this course
+    focus: aprender y servir
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Ingeniero en producción industrial.  Estudiante de desarrollo de software.
+      
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: 
 
     # Contact Information
-    email: santiagoquinteroq@gmail.com #optional
-    phone: (305)338-7090 #optional
-    website: none yet #optional
-    linkedin: santiago-quintero-91bb77152 #optional
+    email: heinerguillen@gmail.com #optional
+    phone: 506 88429214 #optional
+    website:  #optional
+    linkedin: #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: QuinteroSantiago
+    github: Hguillenalvarado
     
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
     # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
-        level: Native
-        
       - idiom: Spanish
         level: Native
-        
-      - idiom: Portuguese
-        level: Basic
+
+      - idiom: English
+        level: B1
 
     # Interests or hobies
     interests:
-      - item: Poker
+      - item: Lectura
 
-      - item: Coding
-
-      - item: Football
+      - item: deporte
 
 # Your previous education
 education:
-    - degree: BS in Computer Science
-      university: University of Florida
+    - degree: Ingenieria en Producción Industrial
+      university: ITCR
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: 
+      time: 1998
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -76,11 +70,11 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Maestría Ingeniería SMM
+      university: ITCR
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: 
+      time: 9 cursos aprobados
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -91,9 +85,9 @@ education:
           - Bullet point
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Ingeniero Procesos
+      time: 2018-2021
+      company: Profesional independiente
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -108,9 +102,9 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Supervisor CEDI
+      time: 2013 - 2018
+      company: Capris
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -121,9 +115,9 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Jefe de control de materiales
+      time: 2009 - 2012
+      company: MAN Diesel
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -173,20 +167,20 @@ projects:
 
 skills:
     toolset:
-      - name: C++
-        level: 50%
+      - name: Python & Django
+        level: 0%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 40%
 
       - name: Angular
-        level: 98%
+        level: 0%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 40%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 0%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Boostrap
+        level: 50%
